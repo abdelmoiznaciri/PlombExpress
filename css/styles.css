@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 104px;
+    padding-right: 104px;;
+    height: 96px;
+    align-items: center;
+}
+.LogoPic{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.NavBarTittle{
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    height: 30px;
+    width: 171px;
+    color: #102A43;
+}
+.Express{
+    color: #0866C2;
+}
+.Logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.NavLinks{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    width: 320px;
+}
+.NavLinks>li>a{
+    text-decoration: none;
+    color: #102A43;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width: 51px;
+    height: 17px;
+}
+.NavLinks>li>a:hover{
+    color: #0866C2;
+    padding-bottom: 2px;
+    border-bottom: 2px solid;
+    transition: 0.1s;
+}
+.DemandeDevis{
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 171px;
+    height: 44px;
+}
+/* ================================================= */
+.Présentation{
+    height: 668px;
+    background: #F3F7FA;
+    align-items: center;
+    padding-top: 64px;
+}
+.PrésentationDeArtisan{
+    flex-direction: space-between;
+    padding-left: 104px;
+    padding-right: 104px;
+}
+.Plombier{
+    height: 464px;
+    width: 588px;
+    border-radius: 24px;
+}
+.Promesse{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 419px;
+    width: 580px;
+}
+.PromesseLitlleTittle{
+    color: #0866C2;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    height: 16px;
+    width: 204px;
+}
+.PromwsseTittle{
+    font-size: 56px;
+    width: 580px;
+    height: 189px;
+    font-style: Inter,sans-serif;
+    font-weight: 700;
+}
+.PrésentationDeArtisan{
+    display: flex;
+    justify-content: space-between;
+}
