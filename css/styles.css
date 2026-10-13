@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Inter, sans-serif;
 }
 .navbar{
     display: flex;
@@ -65,7 +66,7 @@
 }
 /* ================================================= */
 .Présentation{
-    background: lightcoral;
+    background: #F3F7FA;
     height: 668px;
 }
 .PresentationArtisan{
@@ -114,15 +115,145 @@
     width: 588px;
     border-radius: 24px;
 }
+.NosEngagements{
+    display: flex;
+    border-top: 1px #DCE5EC solid;
+    height: 92px;
+    width: 1232px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 104px 0px 104px;
+}
+.NosEngagements p{
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 600;
+}
+.Symbole{
+    color: #0866C2;
+}
 /* ================================================= */
 .Services{
-    background: lime;
+    background: #FFFFFF;
     height: 846px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.PrésentationServices{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    padding: 80px 320px 0px 320px;
+}
+.ServicesTxtOnTopTittle{
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #0866C2;
+    width: 140px;
+    height: 17px;
+    text-align: center;
+}
+.ServicesTittle{
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #102A43;
+    width: 800px;
+    height: 48px;
+    text-align: center;
+}
+.ServicesTextUnderTittle{
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #486176;
+    width: 800px;
+    height: 26px;
+    text-align: center;
+}
+.ListeServices{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 104px 0px 104px;
+    border-radius: 16px;
+}
+.CarteService{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #F3F7FA ;
+    border-radius: 16px;
+    border: 1px gainsboro solid;
+}
+.CarteServicePics{
+    width: 394.67px;
+    height: 210px;
+    border-radius: 16px 16px 0px 0px;  
+}
+.CarteParagraph{
+    width: 346.67px;
+    height: 75px;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #486176;
+    padding-left: 24px;
+}
+.CarteTittle{
+    width: 346,67px;
+    height: 26px;
+    font-family: Inter, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #102A43;
+    padding-left: 24px;
+}
+.SymboleService{
+    padding-left: 24px;
+}
+.VoirService{
+    height: 54px;
+    width: 239px;
+    border-radius: 10px;
+    border: 1px solid #DCE5EC;
+}
+.voir-bouton{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Flech{
+    color: #0866C2;
 }
 /* ================================================= */
 .PourquoiNousChoisir{
     background: brown;
-    height: 624px;
+    padding: 80px 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PourquoiNousChoisir .part1 , .PourquoiNousChoisir .part2{
+    height: 100%;
+}
+.PourquoiNousChoisir .part2{
+    align-content: center;
+}
+.part2 .top{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.part2 .top h4{
+    color: #0866C2;
+}
+.part2 h2{
+    font-size: 40px;
 }
 /* ================================================= */
 .Footer{
