@@ -65,44 +65,67 @@
 }
 /* ================================================= */
 .Présentation{
+    background: lightcoral;
     height: 668px;
-    background: #F3F7FA;
-    align-items: center;
-    padding-top: 64px;
 }
-.PrésentationDeArtisan{
-    flex-direction: space-between;
-    padding-left: 104px;
-    padding-right: 104px;
+.PresentationArtisan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 104px 48px 104px;
+}
+.TxtOnTopOfTittle{
+    color: #0866C2;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.Tittle{
+    font-family: Inter, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    width: 580px;
+    height: 189px;
+    color:#102A43;
+}
+.TxtUnderTittle{
+    width: 580px;
+    height: 84px;
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #486176;
+}
+.NosServices{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    width: 142px;
+    height: 44px;
+}
+.Promesse{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 .Plombier{
     height: 464px;
     width: 588px;
     border-radius: 24px;
 }
-.Promesse{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    height: 419px;
-    width: 580px;
+/* ================================================= */
+.Services{
+    background: lime;
+    height: 846px;
 }
-.PromesseLitlleTittle{
-    color: #0866C2;
-    font-size: 13px;
-    font-weight: 600;
-    font-family: Inter, sans-serif;
-    height: 16px;
-    width: 204px;
+/* ================================================= */
+.PourquoiNousChoisir{
+    background: brown;
+    height: 624px;
 }
-.PromwsseTittle{
-    font-size: 56px;
-    width: 580px;
-    height: 189px;
-    font-style: Inter,sans-serif;
-    font-weight: 700;
-}
-.PrésentationDeArtisan{
-    display: flex;
-    justify-content: space-between;
+/* ================================================= */
+.Footer{
+    background: #000;
+    height: 368px;
 }
