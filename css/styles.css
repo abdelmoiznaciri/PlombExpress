@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Inter, sans-serif;
 }
 .navbar{
     display: flex;
@@ -232,31 +231,163 @@
 }
 /* ================================================= */
 .PourquoiNousChoisir{
-    background: brown;
-    padding: 80px 104px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   height: 624px;
+   background: #F3F7FA;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 64px
 }
-.PourquoiNousChoisir .part1 , .PourquoiNousChoisir .part2{
-    height: 100%;
+.robinet{
+    width: 520px;
+    height: 464px;
+    border-radius: 24px;
 }
-.PourquoiNousChoisir .part2{
-    align-content: center;
-}
-.part2 .top{
+.POurquoiNousChoisirText{
+    width: 648px;
+    height: 361px;
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap:32px;
+    justify-content: center;
 }
-.part2 .top h4{
+.PourquoiNousChoisirHeadline{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.PourquoiNousChoisirSmalltxt{
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
     color: #0866C2;
 }
-.part2 h2{
+.PourquoiNousChoisirTittle{
+    font-family: Inter, sans-serif;
     font-size: 40px;
+    font-weight: 700;
+    color: #102A43;
+}
+.PourquoiNousChoisirSmalltxt2{
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #486176;
+}
+.POurquoiNousChoisirUnderText{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 648px;
+    height: 184px;
+}
+.PourquoiNousChoisirService{
+    display: flex;
+    gap: 32px;
+}
+.ServiceText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ServiceTextTittle{
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #102A43;
+}
+.ServiceTexttext{
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    color: #486176;
+    width: 308px;
+    height: 78px;
+}
+.ServiceSymboles{
+    color: #0866C2;
 }
 /* ================================================= */
 .Footer{
-    background: #000;
+    background: #102A43;
     height: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+.FooterText{
+    display: flex;
+    gap: 48px;
+    align-items: flex-start;
+}
+.DivLogoAndTittle{
+    width: 310px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.LogoAndTittle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.FooterTittle{
+    font-family: Inter,sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.LesDivs{
+    display: flex;
+    flex-direction: column;
+    width: 259px;
+    gap: 20px;
+}
+.LesDivsTittle{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Inter,sans-serif;
+}
+.LesDivsTextes{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #C2D0DD;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+}
+.Text{
+    font-family: Inter, sans-serif;
+    color: #C2D0DD;
+    font-weight: 400;
+    font-size: 14px;
+}
+.ReseauSociaux{
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+.SymbolReseauSociaux{
+    font-size: 30px;
+}
+.FooterOfFooter{
+    width: 1232px;
+    height: 43px;
+    border-top: 1px solid #30485E;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-family: Inter,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C2D0DD;
+}
+.ConfMent{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 203px;
 }
