@@ -5,127 +5,127 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding-left: 104px;
-    padding-right: 104px;;
-    height: 96px;
+    padding-left: 6.6rem;
+    padding-right: 6.6rem;
+    height: 6rem;
     align-items: center;
 }
 .LogoPic{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 0.6rem;
     align-items: center;
 }
 .NavBarTittle{
     font-family: Inter, sans-serif;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 700;
-    height: 30px;
-    width: 171px;
+    height: 1.8rem;
+    width: 10.7rem;
     color: #102A43;
 }
 .Express{
     color: #0866C2;
 }
 .Logo{
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.6rem;
 }
 .NavLinks{
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 35px;
-    width: 320px;
+    height: 2.2rem;
+    width: 20rem;
 }
 .NavLinks>li>a{
     text-decoration: none;
     color: #102A43;
     font-family: Inter, sans-serif;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 600;
-    width: 51px;
-    height: 17px;
+    width: 3.2rem;
+    height: 1.06rem;
 }
 .NavLinks>li>a:hover{
     color: #0866C2;
-    padding-bottom: 2px;
-    border-bottom: 2px solid;
+    padding-bottom: 0.125rem;
+    border-bottom: 0.125rem solid;
     transition: 0.1s;
 }
 .DemandeDevis{
     background-color: orangered;
     color: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: none;
-    width: 171px;
-    height: 44px;
+    width: 10.7rem;
+    height: 2.75rem;
 }
 /* ================================================= */
 .Présentation{
     background: #F3F7FA;
-    height: 668px;
+    height: 41.75rem;
 }
 .PresentationArtisan{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 64px 104px 48px 104px;
+    padding: 4rem 6.5rem 3rem 6.5rem;
 }
 .TxtOnTopOfTittle{
     color: #0866C2;
     font-family: Inter, sans-serif;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 600;
 }
 .Tittle{
     font-family: Inter, sans-serif;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 700;
-    width: 580px;
-    height: 189px;
+    width: 36.25rem;
+    height: 11.8125rem;
     color:#102A43;
 }
 .TxtUnderTittle{
-    width: 580px;
-    height: 84px;
+    width: 36.25rem;
+    height: 5.25rem;
     font-family: Inter, sans-serif;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 400;
     color: #486176;
 }
 .NosServices{
     background-color: white;
     color: black;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: none;
-    width: 142px;
-    height: 44px;
+    width: 8.875rem;
+    height: 2.75rem;
 }
 .Promesse{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
 }
 .Plombier{
-    height: 464px;
-    width: 588px;
-    border-radius: 24px;
+    height: 29rem;
+    width: 36.75rem;
+    border-radius: 1.5rem;
 }
 .NosEngagements{
     display: flex;
     border-top: 1px #DCE5EC solid;
-    height: 92px;
-    width: 1232px;
+    height: 5.75rem;
+    width: 77rem;
     align-items: center;
     justify-content: space-around;
-    margin: 0px 104px 0px 104px;
+    margin: 0px 6.5rem;
 }
 .NosEngagements p{
     font-family: Inter, sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     font-weight: 600;
 }
@@ -135,90 +135,90 @@
 /* ================================================= */
 .Services{
     background: #FFFFFF;
-    height: 846px;
+    height: 52.875rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 }
 .PrésentationServices{
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 0.875rem;
     align-items: center;
-    padding: 80px 320px 0px 320px;
+    padding: 5rem 20rem 0rem 20rem;
 }
 .ServicesTxtOnTopTittle{
     font-family: Inter, sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 700;
     color: #0866C2;
-    width: 140px;
-    height: 17px;
+    width: 8.75rem;
+    height: 1.0625rem;
     text-align: center;
 }
 .ServicesTittle{
     font-family: Inter, sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #102A43;
-    width: 800px;
-    height: 48px;
+    width: 50rem;
+    height: 3rem;
     text-align: center;
 }
 .ServicesTextUnderTittle{
     font-family: Inter, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: #486176;
-    width: 800px;
-    height: 26px;
+    width: 50rem;
+    height: 1.625rem;
     text-align: center;
 }
 .ListeServices{
     display: flex;
     justify-content: space-around;
-    margin: 0px 104px 0px 104px;
-    border-radius: 16px;
+    margin: 0rem 6.5rem;
+    border-radius: 1rem;
 }
 .CarteService{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
     background-color: #F3F7FA ;
-    border-radius: 16px;
-    border: 1px gainsboro solid;
+    border-radius: 1rem;
+    border: 0.0625rem gainsboro solid;
 }
 .CarteServicePics{
-    width: 394.67px;
-    height: 210px;
-    border-radius: 16px 16px 0px 0px;  
+    width: 24.66rem;
+    height: 13.125rem;
+    border-radius: 1rem 1rem 0rem 0rem;  
 }
 .CarteParagraph{
-    width: 346.67px;
-    height: 75px;
+    width: 24.66rem;
+    height: 4.6875rem;
     font-family: Inter, sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
     color: #486176;
-    padding-left: 24px;
+    padding-left: 1.5rem;
 }
 .CarteTittle{
-    width: 346,67px;
-    height: 26px;
+    width: 24.66rem;
+    height: 1.625rem;
     font-family: Inter, sans-serif;
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 700;
     color: #102A43;
-    padding-left: 24px;
+    padding-left: 1.5rem;
 }
 .SymboleService{
-    padding-left: 24px;
+    padding-left: 1.5rem;
 }
 .VoirService{
-    height: 54px;
-    width: 239px;
-    border-radius: 10px;
-    border: 1px solid #DCE5EC;
+    height: 3.375rem;
+    width: 14.9375rem;
+    border-radius: 0.625rem;
+    border: 0.625rem solid #DCE5EC;
 }
 .voir-bouton{
     width: 100%;
@@ -231,77 +231,77 @@
 }
 /* ================================================= */
 .PourquoiNousChoisir{
-   height: 624px;
+   height: 39rem;
    background: #F3F7FA;
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 64px
+   gap: 4rem;
 }
 .robinet{
-    width: 520px;
-    height: 464px;
-    border-radius: 24px;
+    width: 32.5rem;
+    height: 29rem;
+    border-radius: 1.5rem;
 }
 .POurquoiNousChoisirText{
-    width: 648px;
-    height: 361px;
+    width: 40.5rem;
+    height: 22.56rem;
     display: flex;
     flex-direction: column;
-    gap:32px;
+    gap:2rem;
     justify-content: center;
 }
 .PourquoiNousChoisirHeadline{
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 0.875rem;
 }
 .PourquoiNousChoisirSmalltxt{
     font-family: Inter, sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 700;
     color: #0866C2;
 }
 .PourquoiNousChoisirTittle{
     font-family: Inter, sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #102A43;
 }
 .PourquoiNousChoisirSmalltxt2{
     font-family: Inter, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: #486176;
 }
 .POurquoiNousChoisirUnderText{
     display: flex;
     flex-direction: column;
-    gap: 28px;
-    width: 648px;
-    height: 184px;
+    gap: 1.75rem;
+    width: 40.5rem;
+    height: 11.5rem;
 }
 .PourquoiNousChoisirService{
     display: flex;
-    gap: 32px;
+    gap: 2rem;
 }
 .ServiceText{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
 .ServiceTextTittle{
     font-family: Inter, sans-serif;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 700;
     color: #102A43;
 }
 .ServiceTexttext{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: Inter, sans-serif;
     color: #486176;
-    width: 308px;
-    height: 78px;
+    width: 19.25rem;
+    height: 4.875rem;
 }
 .ServiceSymboles{
     color: #0866C2;
@@ -309,85 +309,85 @@
 /* ================================================= */
 .Footer{
     background: #102A43;
-    height: 368px;
+    height: 23rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 48px;
+    gap: 3rem;
 }
 .FooterText{
     display: flex;
-    gap: 48px;
+    gap: 3rem;
     align-items: flex-start;
 }
 .DivLogoAndTittle{
-    width: 310px;
-    height: 185px;
+    width: 19.375rem;
+    height: 11.5625rem;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
 }
 .LogoAndTittle{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 .FooterTittle{
     font-family: Inter,sans-serif;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 700;
     color: #FFFFFF;
 }
 .LesDivs{
     display: flex;
     flex-direction: column;
-    width: 259px;
-    gap: 20px;
+    width: 16.1875rem;
+    gap: 1.25rem;
 }
 .LesDivsTittle{
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 0.93rem;
     font-weight: 700;
     font-family: Inter,sans-serif;
 }
 .LesDivsTextes{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0.75rem;
     color: #C2D0DD;
     font-family: Inter, sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .Text{
     font-family: Inter, sans-serif;
     color: #C2D0DD;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .ReseauSociaux{
     display: flex;
     color: white;
-    gap: 10px;
+    gap: 0.625rem;
 }
 .SymbolReseauSociaux{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .FooterOfFooter{
-    width: 1232px;
-    height: 43px;
-    border-top: 1px solid #30485E;
+    width: 77rem;
+    height: 2.7rem;
+    border-top: 0.0625rem solid #30485E;
     display: flex;
     justify-content: space-between;
     align-items: end;
     font-family: Inter,sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     color: #C2D0DD;
 }
 .ConfMent{
     display: flex;
     justify-content: space-between;
-    gap: 24px;
-    width: 203px;
+    gap: 1.5rem;
+    width: 12.6875rem;
 }
