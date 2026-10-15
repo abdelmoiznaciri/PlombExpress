@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+.burgermenu{
+    display: none;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -390,4 +393,137 @@
     justify-content: space-between;
     gap: 1.5rem;
     width: 12.6875rem;
+}
+@media (max-width: 480px) {
+    .NavLinks{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 2px solid #C2D0DD;
+    }
+    .burgermenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+    }
+    .LogoPic{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        gap: 115px;
+    }
+    .logoPicMobile{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .DemandeDevis{
+        width: 335px;
+        height: 54px;
+        background-color: #FF6418;
+    }
+    .Tittle{
+        font-size: 38px;
+        width: 335px;
+        height: 129px;
+    }
+    .TxtOnTopOfTittle{
+        font-size: 12px;
+        width: 212px;
+        height: 16px;
+    }
+    .PresentationArtisan{
+        display: flex;
+        flex-direction: column;
+    }
+    .Presentationbuttons{
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .NosServices{
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        border: none;
+        width: 335px;
+        height: 54px;
+    }
+    .TxtUnderTittle{
+        width: 335px;
+        height: 130px;
+        font-size: 16px;
+    }
+    .Plombier{
+        width: 335px;
+        height: 320px;
+        border-radius: 24px;
+    }
+    .NosEngagements{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        height: 168px;
+        width: max-content;
+        justify-content: center;
+        align-items: start;
+    }
+    .mobileonly{
+        display: flex;
+        flex-direction: column;
+    }
+    .Présentation{
+        height: 1095px;
+        display: flex;
+        flex-direction: column;
+    }
+    .NosEngagements p{
+        font-size: 14px;
+        width: max-content
+    }
+    .Services{
+        height: 1795px;
+    }
+    .PrésentationServices{
+        height: 173px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .ServicesTxtOnTopTittle{
+        font-size: 12px;
+        width: 140px;
+        height: 17px;
+        text-align: start;
+    }
+    .ServicesTittle{
+        font-size: 32px;
+        width: 335px;
+        height: 76px;
+        text-align: start;
+    }
+    .ServicesTextUnderTittle{
+        font-size: 16px;
+        width: 335px;
+        height: 52px;
+        text-align: start;
+    }
+    .PrésentationServicesmobilediv{
+        justify-content: center;
+        align-items: start;
+        justify-content: center;
+    }
+    
 }

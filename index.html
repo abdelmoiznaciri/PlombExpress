@@ -15,8 +15,13 @@
     <header class="Header">
         <nav class="navbar">
             <div class="LogoPic">
-                <img class="Logo" src="assets/Logo.png">
-                <h4 class="NavBarTittle">Plomb'<span class="Express">Express</span></h4>
+                <div class="logoPicMobile">
+                    <div>
+                        <img class="Logo" src="assets/Logo.png">
+                    </div>
+                    <h4 class="NavBarTittle">Plomb'<span class="Express">Express</span></h4>
+                </div>
+                <p class="burgermenu"><i class="fa-solid fa-bars"></i></p>
             </div>
             <ul class="NavLinks">
                 <li><a href="">Accueil</a></li>
@@ -28,32 +33,40 @@
         </nav>
     </header>
     <main class="Présentation">
-        <div class="PresentationArtisan">
-            <article class="Promesse">
-                <p class="TxtOnTopOfTittle"><i class="fa-solid fa-location-dot"></i>Votre artisan à Lyon et alentours
-                </p>
-                <h1 class="Tittle">Un plombier de confiance près de chez vous</h1>
-                <p class="TxtUnderTittle">Chez Plomb’Express, nous prenons soin de votre confort. Dépannage,
-                    installation ou fuite : nos artisans vous accompagnent avec réactivité, transparence et un travail
-                    soigné.</p>
-                <div class="PresentationButtons">
-                    <button class="DemandeDevis">Demander un devis</button>
-                    <button class="NosServices">Nos services</button>
+        <div class="mobileonly">
+            <div class="PresentationArtisan">
+                <article class="Promesse">
+                    <p class="TxtOnTopOfTittle"><i class="fa-solid fa-location-dot"></i>Votre artisan à Lyon et alentours
+                    </p>
+                    <h1 class="Tittle">Un plombier de confiance près de chez vous</h1>
+                    <p class="TxtUnderTittle">Chez Plomb’Express, nous prenons soin de votre confort. Dépannage,
+                        installation ou fuite : nos artisans vous accompagnent avec réactivité, transparence et un travail
+                        soigné.</p>
+                    <div class="PresentationButtons">
+                        <div class="Presentationbuttons">
+                            <button class="DemandeDevis">Demander un devis</button>
+                            <button class="NosServices">Nos services</button>
+                        </div>
+                    </div>
+                </article>
+                <div>
+                    <img class="Plombier" src="assets/Plombier.jpg">
                 </div>
-            </article>
-            <img class="Plombier" src="assets/Plombier.jpg">
-        </div>
-        <div class="NosEngagements">
-            <p><span class="Symbole"><i class="fa-regular fa-clock"></i></span> Intervention rapide 7j/7</p>
-            <p><span class="Symbole"><i class="fa-solid fa-shield-halved"></i></span> Travail garanti</p>
-            <p><span class="Symbole"><i class="fa-regular fa-circle-check"></i></span> Professionnels qualifiés</p>
+            </div>
+            <div class="NosEngagements">
+                <p><span class="Symbole"><i class="fa-regular fa-clock"></i></span> Intervention rapide 7j/7</p>
+                <p><span class="Symbole"><i class="fa-solid fa-shield-halved"></i></span> Travail garanti</p>
+                <p><span class="Symbole"><i class="fa-regular fa-circle-check"></i></span> Professionnels qualifiés</p>
+            </div>
         </div>
     </main>
     <main class="Services">
         <article class="PrésentationServices">
-            <p class="ServicesTxtOnTopTittle">NOS SAVOIR-FAIRE</p>
-            <h2 class="ServicesTittle">Des solutions pour tous vos besoins</h2>
-            <p class="ServicesTextUnderTittle">De l’urgence au projet, le bon geste pour chaque situation.</p>
+            <div class="PrésentationServicesmobilediv">
+                <p class="ServicesTxtOnTopTittle">NOS SAVOIR-FAIRE</p>
+                <h2 class="ServicesTittle">Des solutions pour tous vos besoins</h2>
+                <p class="ServicesTextUnderTittle">De l’urgence au projet, le bon geste pour chaque situation.</p>
+            </div>
         </article>
         <section class="ListeServices">
             <article class="CarteService">
