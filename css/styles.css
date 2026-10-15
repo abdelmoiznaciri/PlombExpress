@@ -138,7 +138,7 @@
 /* ================================================= */
 .Services{
     background: #FFFFFF;
-    height: 52.875rem;
+    height: 45.875rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -221,7 +221,8 @@
     height: 3.375rem;
     width: 14.9375rem;
     border-radius: 0.625rem;
-    border: 0.625rem solid #DCE5EC;
+    border: 1px solid #DCE5EC;
+    background-color: white;
 }
 .voir-bouton{
     width: 100%;
@@ -524,6 +525,38 @@
         justify-content: center;
         align-items: start;
         justify-content: center;
+    }
+    .ListeServices{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .CarteService{
+        height: 448px;
+        width: 335px;
+    }
+    .CarteServicePics{
+        height: 100%;
+        width: 100%;
+    }
+    .CarteTittle{
+        font-size: 21px;
+    }
+    .CarteParagraph{
+        font-size: 15px;
+        width: 220px;
+        height: 150px;
+        
+    }
+    .cartemobile{
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+    }
+    .VoirService{
+        border: 1px #C2D0DD solid;
+        background-color: white;
     }
     
 }
