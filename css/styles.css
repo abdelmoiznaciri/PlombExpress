@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+.logoPicMobile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .burgermenu{
     display: none;
 }
@@ -241,6 +246,7 @@
    justify-content: center;
    align-items: center;
    gap: 4rem;
+   flex-wrap: wrap;
 }
 .robinet{
     width: 32.5rem;
@@ -558,5 +564,46 @@
         border: 1px #C2D0DD solid;
         background-color: white;
     }
-    
+    .PourquoiNousChoisir{
+        height: 1039px;
+        flex-direction: column;
+        gap: 30px;
+        padding: 56px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .robinet{
+        width: 335px;
+        height: 280px;
+        border-radius: 24px;
+    }
+    .POurquoiNousChoisirText{
+        flex-direction: column;
+        order: -1;
+    }
+    .PourquoiNousChoisirHeadline{
+        flex-direction: column;
+        height: 199px;
+        width: 335px;
+    }
+    .PourquoiNousChoisirService{
+        flex-direction: column;
+        height: 384px;
+    }
+    .robinetmobile{
+        order: 1;
+    }
+    .PourquoiNousChoisirSmalltxt{
+        font-size: 12px;
+    }
+    .PourquoiNousChoisirTittle{
+        font-size: 32px;
+    }
+    .PourquoiNousChoisirSmalltxt2{
+        font-size: 16px;
+    }
+    .POurquoiNousChoisirUnderText{
+        height: 384px;
+        order: 2;
+    }
 }
