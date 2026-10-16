@@ -398,6 +398,11 @@
     font-weight: 400;
     color: #C2D0DD;
 }
+.footeroffootermobile{
+    display: flex;
+    justify-content: space-between;
+    gap: 750px;
+}
 .ConfMent{
     display: flex;
     justify-content: space-between;
@@ -611,5 +616,24 @@
         height: 384px;
         order: 2;
     }
-    
+    .Footer{
+        height: 943px;
+
+    }
+    .FooterText{
+        flex-direction: column;
+    }
+    .FooterOfFooter{
+        flex-direction: column;
+        width: 335px;
+        height: 78px;
+        justify-content: end;
+        align-items: start;
+    }
+    .footeroffootermobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+    }
 }
